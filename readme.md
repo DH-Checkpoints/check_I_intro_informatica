@@ -4,13 +4,7 @@
     <h3> ✌️ Bem vindo! </h3>
 
 </div>
-<br>
-<br>
-
-
-
-
-<br><br><br>
+<br><br>
 
 
 <h2> ✨ Objetivo</h2>
@@ -49,6 +43,10 @@ Todos já tivemos que fazer trabalhos de escola, faculdade, empresariais ou pess
 
 
 <p>
+    Várias e várias versões de um mesmo arquivo. Era tanto <b>CTRL+C / CTRL+V</b> de um único arquivo que gerava confusão e 'armazenamento indevido'.
+</p>
+
+<p>
     <b>Por que guardamos versões dos nossos trabalhos? </b>
 </p>
     <ul>
@@ -57,9 +55,6 @@ Todos já tivemos que fazer trabalhos de escola, faculdade, empresariais ou pess
         <li>  Acompanhar a evolução que estamos fazendo
     </ul>
 
-<p>
-    Várias e várias versões de um mesmo arquivo. Era tanto <b>CTRL+C / CTRL+V</b> de um único arquivo que gerava confusão e 'armazenamento indevido'.
-</p>
 
 
 <br><br>
@@ -90,7 +85,7 @@ mesmo tempo
 <br>
 <br>
 
-<h2> 🤓 Um pouco da história </h2>
+<h2> 🤓 Um pouco da história do GIT</h2>
 
 <p>
 Este problema de versionamento é algo que já preocupava a comunidade científica (em especial,
@@ -105,10 +100,12 @@ open-source mais famosos da história...
 Em 1991, Linus Torvalds começou a elaborar o sistema operacional Linux. A princípio, ele só queria testar seus conhecimentos
 de programação e criar o seu próprio sistema operacional. Segundo Linus, seria "algo simples":
 </p>
-<cite>
+<br>
+<cite style="position:relative; right:0;">
 Estou fazendo um sistema operacional (livre - apenas
 como um hobby, não será algo grande e profissional
 como o GNU) [...]
+<br>
 </cite> <span style="font-size: 12px">Mensagem enviada por Linus para divulgar seu projeto.</span>
 
 <br>
@@ -154,8 +151,136 @@ nenhum(a) dev imagina viver sem...
 
 <h2> 🚀 Começando </h2>
 
-Vamos começar criando um repositório no Github
+<h3> 🛠️ Instalação </h3>
 
+<p> 
+<b> É importante saber que para começar a ciar um versionamento do nosso código/trabalho é necessário que a ferramenta esteja instalada!</b>
+</p>
+
+<p>
+Então, caso não ainda não tenha instalado <a href="https://git-scm.com/downloads"> clique aqui </a> e faça o download no site oficial, de acordo com seu sistema operacional.
+
+
+Vale ressltar que, é comum que os sistemas Linux e MacOS já venham com o git instalado, mas para desencardo é bom ter uma confirmação, e para isso abra o terminal e digite:
+~~~
+git --version
+~~~
+E se o retorno da mensagem for a versão do git, Ok! está instalado, se não aparecer nada ou der alguma mensagem fora do comum, instale o git.
+</p>
+
+<h3>⚙️ git config </h3>
+
+<p> Vamos inserir nossas credenciais para que fique armazenado quem e quando foi feita as alterações do projeto.</p>
+<p>Abra o terminal e siga os passos: 
+
+
+1. Configurando o nome do usuário - escreva seu nome entre aspas - o seu nome mesmo.
+
+~~~
+git config --global user.name "digite-seu-nome-aqui-entre-aspas"
+~~~
+
+2. Configurando o e-mail do usuário - aqui é importante que escreva o seu e-mail de acordo com o que irá utilizar em um sistema de gerenciamento. (tipo github)
+
+~~~
+git config --global user.email "meu@email.com"
+~~~
+
+3. DICA MASSINHA. Habilitando a colorização da saída da linha de comando - esse passo é dispensável.
+
+~~~
+git config --global color.ui auto
+~~~
+</p>
+
+
+<h3>🧬  git init </h3>
+
+<p> Começamos criando um repositório local. Lembrando, abra seu terminal.
+
+Siga os passos a seguir:
+
+1. Inicializa o git na pasta atual:
+
+~~~
+git init
+~~~
+
+2. Cria e inicializa o git em uma nova pasta, e armazena na sua pasta atual:
+
+~~~javascript
+git init novo_repositorio
+~~~
+
+3. Inicializa o git no endereço fornecido:
+
+~~~javascript
+git init area_de_trabalho/meus_documentos/novo_repositorio
+~~~
+
+<p> É importante ressaltar que, quando iniciamos o repositório (git init) não será criado um diretório (uma pasta), e sim um arquivo .git que fica oculto. Caso queira ver esse arquivo que fora criado, apenas selecione a opção para <i>vizualizar aquivos ocultos</i>.</p>
+
+
+<p><b>Pronto! Temos o inicio de um versionamento de seu trabalho.</b></p>
+
+<p> A partir de agora, qualquer adição/alteração de um arquivo é possível verificar com o comando
+
+~~~javascript
+git status
+
+// Irá mostrar no terminal o status do repositório
+~~~
+
+- Arquivos/pastas criados
+
+- Arquivos/pastas modificados
+
+- Arquivos/pastas removidos
+
+Caso, queira permanecer com as alterações, é preciso adicionar ao git, enviando os arquivos modificados, removidos e
+criados para a Staging Area (que é local):
+
+~~~javascript
+// para adicionar apenas o arquivo modificado
+git add nome-arquivo
+
+// para adicionar todos os arquivos da pasta em questão
+git add . 
+
+// para adicionar todos os arquivos alterados no projeto
+git add --all
+~~~
+
+
+
+Depois de add suas alteações, é preciso fazer um commit.
+
+<b> Mas, o que é um commit?</b>
+
+Serve para informar com uma mensagem a alteração que houve no projeto e quais os arquivos que serão adicionados na Staging Area.
+
+A mensagem deve explicar as modificações, criações e deleções feitas.
+
+Para dar um commit, depois de ter feito a adicção com o git add, digite no terminal:
+
+~~~javascript
+git commit -m "mensagem"
+
+// Não esquecer do -m
+// Caso esqueça, você vai entrar em uma parte do terminal, que para sair você deve digitar: esc esc -q
+// Não esquecer das aspas (")
+~~~
+
+Caso queira verificar o histórico de commits que fez, digite o comando:
+
+~~~javascript
+git log
+
+ou
+
+git log -- graph
+//Mostra de forma mais descritiva e visual o que está acontecendo.
+~~~
 <!-- ->
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
