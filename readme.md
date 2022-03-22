@@ -360,9 +360,9 @@ mkdir Nome_Sobrenome
 //Feito isso, irá acessar a pasta:
 cd Nome_Sobrenome
 ~~~
-
-    - Para o passo a aeguir, clique aqui
-
+<br><br><br><br>
+ <b>Para o passo a seguir, <a href="https://github.com/gabazevdo/checkpoint_intro_informatica/tree/main/ex_readme"> clique aqui </a></b>
+<br><br><br><br>
 Criar um arquivo de texto, utilizaremos o markdown:
 ~~~javascript
 touch Nome_Sorbenome.md
