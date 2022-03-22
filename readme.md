@@ -167,7 +167,7 @@ git --version
 ~~~
 E se o retorno da mensagem for a versão do git, Ok! está instalado, se não aparecer nada ou der alguma mensagem fora do comum, instale o git.
 </p>
-
+<br>
 <h3>⚙️ git config </h3>
 
 <p> Vamos inserir nossas credenciais para que fique armazenado quem e quando foi feita as alterações do projeto.</p>
@@ -193,7 +193,7 @@ git config --global color.ui auto
 ~~~
 </p>
 
-
+<br>
 <h3>🧬  git init </h3>
 
 <p> Começamos criando um repositório local. Lembrando, abra seu terminal.
@@ -251,9 +251,10 @@ git add .
 git add --all
 ~~~
 
-
-
 Depois de add suas alteações, é preciso fazer um commit.
+
+<br>
+<h3> 📎  git commit </h3>
 
 <b> Mas, o que é um commit?</b>
 
@@ -281,97 +282,137 @@ ou
 git log -- graph
 //Mostra de forma mais descritiva e visual o que está acontecendo.
 ~~~
-<!-- ->
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Consulte **Implantação** para saber como implantar o projeto.
+<br>
+continua...
+<br>
+<br>
+<p><b>😅 Legal, conhecemos um poquinho do que é e pra que serve o git, agora vamos colocar a mão na massa! </b></p>
 
-### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
 
-```
-Dar exemplos
-```
+<p>
+E ae pessoal, como vai? Bora fazer essa atividade?
+</p>
 
-### 🔧 Instalação
+<p>A ideia de se ter um README em um repositório é que aqui vocẽ vai explicar tudo de maneira simples e sucinta . Neste caso, tentarei deixar de maneira detalhada o passo a passo que vocês devem seguir para cada integrante entregar sua parte da atividade.
+</p>
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+<h2>Vamos ao que interessa</h2>
 
-Diga como essa etapa será:
+<h3>Desafio</h3>
 
-```
-Dar exemplos
-```
+<p>
+O desafio consiste em: 
 
-E repita:
+- fazer o clone desse repositório; 
 
-```
-Até finalizar
-```
+- criar sua branch e realizar suas alterações;
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+- essas alterações são: criar uma pasta, entrar na pasta e criar um arquivo Nome_Sobrenome.txt com qualquer conteúdo.
 
-## ⚙️ Executando os testes
+- em seguida, vir até esse arquivo e colocar o print do terminal com os comandos que cada integrante utilizou.
 
-Explicar como executar os testes automatizados para este sistema.
+- fazer o commit e consequentemente, um push estando na sua branch;
 
-### 🔩 Analise os testes de ponta a ponta
+- Ir até o github e fazer uma PR (pull request) e solicitar um reviewer.
 
-Explique que eles verificam esses testes e porquê.
+- Próximo passo é deixar o dono do PR fazer o merge na Main.
 
-```
-Dar exemplos
-```
-
-### ⌨️ E testes de estilo de codificação
-
-Explique que eles verificam esses testes e porquê.
-
-```
-Dar exemplos
-```
-
-## 📦 Desenvolvimento
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
-## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
-
-## 📄 Licença
-
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](https://github.com/usuario/projeto/licenca) para detalhes.
-
-## 🎁 Expressões de gratidão
-
-* Conte a outras pessoas sobre este projeto 📢
-* Convide alguém da equipe para uma cerveja 🍺 
-* Obrigado publicamente 🤓.
-* etc.
-
+</p>
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+
+~~~javascript
+// Gravei um vídeo, e está na Twitch para acompanhar e ir fazendo junto caso tenha dúvidas
+// Link: https://www.twitch.tv/videos/1421978671
+// Qualquer dúvida, pode me chamar.
+~~~
+
+---
+<h3>Passo a passo via terminal</h3>
+
+Clone
+~~~javascript
+git clone git@github.com:gabazevdo/checkpoint_intro_informatica.git
+//Basta copiar o código acima e clonar o 
+//repositório na sua pasta de sua preferencia.
+~~~
+
+Acessar a pasta localmente:
+
+~~~javascript
+cd Git_GitHub_Checkpoint-1
+//Após acessar a pasta, faça o comando: code .
+//Esse comando vai abrir o VsCode nesta pasta em questão, 
+//deixe ele minimizado e siga os próximos passos
+~~~ 
+
+Criar sua branch:
+~~~javascript
+git checkout -b "Nome_Sobrenome"
+//Com esse comando vc irá criar a branch e já entrar direto
+~~~
+
+Criar sua pasta:
+~~~javascript
+mkdir Nome_Sobrenome
+//Feito isso, irá acessar a pasta:
+cd Nome_Sobrenome
+~~~
+
+    - Para o passo a aeguir, clique aqui
+
+Criar um arquivo de texto, utilizaremos o markdown:
+~~~javascript
+touch Nome_Sorbenome.md
+//Abrir o arquivo e colocar informações gerais sobre o git/github
+//Para realizar esse passo, vá até o VsCode e realize as alterações no arquivo que criou.
+
+//LEMBRE-SE, A EXTENSÃO DO ARQUIVO SERÁ .md - EXTENSÃO APRA ARQUIVOS MARKDOWN
+~~~
+
+Veja o status 
+~~~javascript
+git status
+//Provavelmente suas alterações aparecerão em destaque na cor VERMELHA
+~~~
+
+Adicione as alterações e deixe ele na espera (staging area)
+~~~javascript
+git add --all
+//irá adicionar todas as suas alterações feitas no repositório
+~~~
+
+Veja o status 
+~~~javascript
+git status
+//Provavelmente suas alterações aparecerão em destaque na cor VERDE
+~~~
+
+Faça o commit
+~~~javascript
+git commit -m "descreva o que foi realizado - seja breve"
+~~~
+
+Pronto, agora faça o push
+~~~javascript
+git push origin Sua_Branch
+//Substituit o Sua_Branch pela branch que criou lá no passo 3 (git checkout -b "Nome_Sobrenome")
+~~~
+
+<h2>Passo a passo via GitHub</h2>
+
+<p>
+
+-  Fazer o PR (Pull Request).
+
+-  Colocar um colega como Reviewer
+
+- Aguardar para ter seu PR aprovado
+
+- Fazer o Merge
+
+- Partir pro abraço!
+
+</p>
