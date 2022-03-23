@@ -1,0 +1,4 @@
+A maioria dos outros sistemas gerencia os dados como um conjunto de arquivos e as mudanças que eles sofrem; enquanto o GIT os trata como uma snapshot, uma captura de algo em determinado instante, como uma foto.					
+Uma ótima vantagem proporcionada pelo GIT é sua enorme flexibilidade. Ele suporta bem vários de fluxos de desenvolvimento; entrega eficiência tanto em grandes quantos em pequenos projetos; e é compatível com a maioria dos sistemas e protocolos existentes.
+Isso significa que não importa qual seja o seu projeto, demandas ou objetivos, o GIT é um ótimo DVCS (sistema de controle de versão distribuído).
+O Github é um repositório remoto, criado como um serviço online de hospedagem de repositórios do Git. Funciona como um servidor que agrega todas as modificações realizadas por cada uma das pessoas envolvidas em um projeto, unificando as diferentes versões de código e seus históricos, permitindo compartilhamento entre as equipes.
