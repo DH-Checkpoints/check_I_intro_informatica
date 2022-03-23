@@ -297,10 +297,10 @@ E ae pessoal, como vai? Bora fazer essa atividade?
 
 <p>A ideia de se ter um README em um repositório é que aqui vocẽ vai explicar tudo de maneira simples e sucinta . Neste caso, tentarei deixar de maneira detalhada o passo a passo que vocês devem seguir para cada integrante entregar sua parte da atividade.
 </p>
-
-<h2>Vamos ao que interessa</h2>
-
-<h3>Desafio</h3>
+<hr><br>
+<h2> 💻 Vamos ao que interessa: mão na massa, quer dizer, no código!</h2>
+<br><br>
+<h3>📑 Desafio</h3>
 
 <p>
 O desafio consiste em: 
@@ -330,7 +330,7 @@ O desafio consiste em:
 ~~~
 
 ---
-<h3>Passo a passo via terminal</h3>
+<h3>⌨️ Passo a passo via terminal 🖱️</h3>
 
 Clone
 ~~~javascript
@@ -365,7 +365,7 @@ cd Nome_Sobrenome
 <br><br><br><br>
 Criar um arquivo de texto, utilizaremos o markdown:
 ~~~javascript
-touch Nome_Sorbenome.md
+touch README.md
 //Abrir o arquivo e colocar informações gerais sobre o git/github
 //Para realizar esse passo, vá até o VsCode e realize as alterações no arquivo que criou.
 
@@ -401,7 +401,7 @@ git push origin Sua_Branch
 //Substituit o Sua_Branch pela branch que criou lá no passo 3 (git checkout -b "Nome_Sobrenome")
 ~~~
 
-<h2>Passo a passo via GitHub</h2>
+<h2>🧩 Passo a passo via GitHub</h2>
 
 <p>
 
@@ -413,6 +413,90 @@ git push origin Sua_Branch
 
 - Fazer o Merge
 
-- Partir pro abraço!
+- Partir pro abraço! Suas alterações foram aprovadas e integradas ao projeto principal! 🎉
 
 </p>
+
+
+---
+
+<h2> 👩‍🏫 Apresentação 👨‍🏫</h2>
+
+<p>
+
+Nosso grupo é composto por 8 integrantes, e foi feita a divisão da apresentação da seguinte maneira:
+
+- O que é git e git hub, sobre a fundação e quanto vale a empresa hoje - Alicia
+
+- Diferenciais Desemprenho - Hugo
+
+- Segurança - Bruna
+
+- Flexibilidade - Leonardo
+
+- Modelo de  cobrança e usuários - Glaucia
+
+- Curiosidades - Lucas
+
+- Apresentação do respositorio - Gabriel  
+
+- Disponibiliza o ebook - Douglas
+
+</p>
+
+<h3>📚 Disponibilizamos um ebook e uma apresentação para você leitor! </h3>
+<a href="">Clique aqui</a> e tenha seu exemplar totalmente grátis! (por tempo limitado)
+
+<p> Apresentação no Canva, para vizualizar,<a href="https://www.canva.com/design/DAE7haSjFOs/De0DKOMM-ryz6XqYkEj5AA/view?utm_content=DAE7haSjFOs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"> clique aqui</a>.
+
+
+---
+
+<h2> 👏 Integrantes do grupo </h2>
+
+<div style="display:flex; flex-direction: column">
+
+<a href="https://github.com/gabazevdo">
+<img src="https://github.com/gabazevdo.png" height="50px" style="border-radius: 50px;">
+Gabriel Azevedo
+</a>
+
+<a href="https://github.com/Leonardo-Jaen">
+<img src="https://github.com/Leonardo-Jaen.png" height="50px" 
+style="border-radius: 50px"> 
+Leonardo Jean
+</a>
+
+
+<a href="https://github.com/AliciaOliveiras">
+<img src="https://github.com/AliciaOliveiras.png" height="50px" style="border-radius: 50px"> 
+Alicia Oliveira
+</a>
+
+<a href="https://github.com/cbrunacastro">
+<img src="https://github.com/cbrunacastro.png" height="50px" style="border-radius: 50px">
+Bruna Cavalcante
+</a>
+
+<a href="https://github.com/glauciaximenes">
+<img src="https://github.com/glauciaximenes.png" height="50px" style="border-radius: 50px">
+Glaucia Ximenes
+</a>
+
+
+<a href="https://github.com/douglasaraujoo">
+<img src="https://github.com/douglasAraujoo.png" height="50px" style="border-radius: 50px">
+Douglas Araujo
+</a>
+
+<a href="https://github.com/hugolcfn">
+<img src="https://github.com/hugolcfn.png" height="50px" style="border-radius: 50px">
+Hugo
+</a>
+
+<a href="https://github.com/Lucas5497">
+<img src="https://github.com/Lucas5497.png" height="50px" style="border-radius: 50px">
+Lucas Anselmo
+</a>
+
+</div>
