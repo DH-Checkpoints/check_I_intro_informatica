@@ -325,7 +325,8 @@ O desafio consiste em:
 
 ~~~javascript
 // Gravei um vídeo, e está na Twitch para acompanhar e ir fazendo junto caso tenha dúvidas
-// Link: https://www.twitch.tv/videos/1421978671
+// Link na Twich: https://www.twitch.tv/videos/1421978671
+// Link no Youtube: https://youtu.be/7CQzHB0oqYQ
 // Qualquer dúvida, pode me chamar.
 ~~~
 
@@ -361,7 +362,7 @@ mkdir Nome_Sobrenome
 cd Nome_Sobrenome
 ~~~
 <br><br><br><br>
- <b>Para o passo a seguir, <a href="https://github.com/gabazevdo/checkpoint_intro_informatica/tree/main/ex_readme"> clique aqui </a></b>
+ <b>Para o passo a seguir, <a href="https://github.com/gabazevdo/checkpoint_intro_informatica/blob/main/assets/readme.md"> clique aqui </a></b>
 <br><br><br><br>
 Criar um arquivo de texto, utilizaremos o markdown:
 ~~~javascript
@@ -445,7 +446,7 @@ Nosso grupo é composto por 8 integrantes, e foi feita a divisão da apresentaç
 </p>
 
 <h3>📚 Disponibilizamos um ebook e uma apresentação para você leitor! </h3>
-<a href="">Clique aqui</a> e tenha seu exemplar totalmente grátis! (por tempo limitado)
+<a href="https://github.com/gabazevdo/checkpoint_intro_informatica/blob/main/assets/Ebook%20Git%20e%20Github.pdf">Clique aqui</a> e tenha seu exemplar totalmente grátis! (por tempo limitado)
 
 <p> Apresentação no Canva, para vizualizar,<a href="https://www.canva.com/design/DAE7haSjFOs/De0DKOMM-ryz6XqYkEj5AA/view?utm_content=DAE7haSjFOs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"> clique aqui</a>.
 
