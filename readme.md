@@ -1,12 +1,18 @@
-<div style="display:flex; align-items:center; justify-content: center; flex-direction: column; ">
+<div align="center">
     <h1> 👩‍💻 Checkpoint I 👨‍💻</h1>
     <h6>INTRODUÇÃO A INFORMÁTICA I</h6>
     <h3> ✌️ Bem vindo! </h3>
-
 </div>
-<br><br>
+<br>
 
+---
+<div  align="center">
+<nav> <a href="#desafio">Desafio</a> | <a href="#apresentacao">Apresentação</a> | <a href="#brinds">Ebook e infográfico </a> | <a href="#integrantes">Integrantes</a></nav>
+</div>
 
+---
+
+<br>
 <h2> ✨ Objetivo</h2>
 <p>
 Nosso objetivo aqui é te apresentar o GIT, o que é, para que serve e como integrá-lo ao Github.
@@ -300,7 +306,7 @@ E ae pessoal, como vai? Bora fazer essa atividade?
 <hr><br>
 <h2> 💻 Vamos ao que interessa: mão na massa, quer dizer, no código!</h2>
 <br><br>
-<h3>📑 Desafio</h3>
+<h3 id="desafio">📑 Desafio</h3>
 
 <p>
 O desafio consiste em: 
@@ -421,7 +427,7 @@ git push origin Sua_Branch
 
 ---
 
-<h2> 👩‍🏫 Apresentação 👨‍🏫</h2>
+<h2 id="apresentacao"> 👩‍🏫 Apresentação 👨‍🏫</h2>
 
 <p>
 
@@ -445,15 +451,15 @@ Nosso grupo é composto por 8 integrantes, e foi feita a divisão da apresentaç
 
 </p>
 
-<h3>📚 Disponibilizamos um ebook e uma apresentação para você leitor! </h3>
-<a href="https://github.com/gabazevdo/checkpoint_intro_informatica/blob/main/assets/Ebook%20Git%20e%20Github.pdf">Clique aqui</a> e tenha seu exemplar totalmente grátis! (por tempo limitado)
+<h3 id="brinds">📚 Disponibilizamos um ebook e uma apresentação para você leitor! </h3>
+<a href="https://github.com/gabazevdo/checkpoint_intro_informatica/blob/main/assets/Ebook%20Git%20e%20Github.pdf">Clique aqui</a> e tenha seu exemplar totalmente grátis! (por tempo limitado 😆)
 
 <p> Apresentação no Canva, para vizualizar,<a href="https://www.canva.com/design/DAE7haSjFOs/De0DKOMM-ryz6XqYkEj5AA/view?utm_content=DAE7haSjFOs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"> clique aqui</a>.
 
 
 ---
 
-<h2> 👏 Integrantes do grupo </h2>
+<h2 id="integrantes"> 👏 Integrantes do grupo </h2>
 
 <div style="display:flex; flex-direction: column">
 
